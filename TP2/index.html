@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploMonde</title>
+</head>
+<body>
+    <a class="skip-link" href="#contenu-principal">Aller au contenu principal</a>
+
+    <header>
+        <h1>ExploMonde</h1>
+        <nav>
+            <a href="#recherche">Recherche</a>
+            <a href="#resultats">Résultats</a>
+        </nav>
+    </header>
+
+    <main id="contenu-principal">
+        <section id="recherche">
+            <h2>Rechercher un pays</h2>
+            <form action="#resultats" method="get">
+                <label for="pays">Nom du pays</label>
+                <input type="search" id="pays" name="pays">
+                <button type="submit">Rechercher</button>
+            </form>
+        </section>
+
+        <section id="resultats">
+            <h2>Résultats</h2>
+            <p id="etat-resultats" role="status" aria-live="polite">3 résultats affichés.</p>
+
+            <article>
+                <h3>France</h3>
+                <p>Capitale : Paris</p>
+                <p>Région : Europe</p>
+                <p>Population : 68 millions d'habitants</p>
+            </article>
+
+            <article>
+                <h3>Japon</h3>
+                <p>Capitale : Tokyo</p>
+                <p>Région : Asie</p>
+                <p>Population : 124 millions d'habitants</p>
+            </article>
+
+            <article>
+                <h3>Brésil</h3>
+                <p>Capitale : Brasilia</p>
+                <p>Région : Amérique du Sud</p>
+                <p>Population : 216 millions d'habitants</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; ExploMonde</p>
+    </footer>
+</body>
+</html>
+

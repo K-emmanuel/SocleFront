@@ -1,0 +1,11 @@
+Défauts d'accessibilité corrigés :
+
+- Il manquait un lien d'évitement vers le contenu principal.
+- Il manquait une zone de statut pour annoncer les résultats.
+- Le focus clavier n'était pas suffisamment visible.
+
+Éléments déjà corrects dans le fichier de départ :
+
+- La langue du document était définie avec lang="fr".
+- Le titre de la page était explicite.
+- Le champ de recherche était correctement associé à son label.
