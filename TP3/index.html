@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploMonde</title>
+    <link rel="stylesheet" href="css/token.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+    <a class="skip-link" href="#contenu-principal">Aller au contenu principal</a>
+
+    <header class="site-header">
+        <div>
+            <p class="eyebrow">Carnet du monde</p>
+            <h1>ExploMonde</h1>
+            <p class="intro">Explorez les pays, une destination à la fois.</p>
+        </div>
+        <nav aria-label="Navigation principale">
+            <a href="#recherche">Recherche</a>
+            <a href="#resultats">Résultats</a>
+        </nav>
+    </header>
+
+    <main id="contenu-principal">
+        <section class="search-panel" id="recherche">
+            <h2>Rechercher un pays</h2>
+            <form action="#resultats" method="get">
+                <label for="pays">Nom du pays</label>
+                <input type="search" id="pays" name="pays">
+                <button type="submit">Rechercher</button>
+            </form>
+        </section>
+
+        <section id="resultats">
+            <h2>Résultats</h2>
+            <p id="etat-resultats" role="status" aria-live="polite">3 résultats affichés.</p>
+
+            <div class="country-grid">
+            <article class="country-card">
+                <h3>France</h3>
+                <p>Capitale : Paris</p>
+                <p>Région : Europe</p>
+                <p>Population : 68 millions d'habitants</p>
+            </article>
+
+            <article class="country-card">
+                <h3>Japon</h3>
+                <p>Capitale : Tokyo</p>
+                <p>Région : Asie</p>
+                <p>Population : 124 millions d'habitants</p>
+            </article>
+
+            <article class="country-card">
+                <h3>Brésil</h3>
+                <p>Capitale : Brasilia</p>
+                <p>Région : Amérique du Sud</p>
+                <p>Population : 216 millions d'habitants</p>
+            </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; ExploMonde</p>
+    </footer>
+</body>
+</html>
+
